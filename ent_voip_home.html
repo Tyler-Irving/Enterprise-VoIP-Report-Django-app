@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form method="post" style="display: flex" class="box box-primary">
+        {% csrf_token  %}
+        <div class="row" style="padding: 10px">
+            <p>Number Status:</p>
+            <div class="col">{{ form.number_status }}</div>
+        </div>
+        <div class="row" style="padding: 10px">
+            <p>Service Location:</p>
+            <div class="col">{{ form.location }}</div>
+        </div>
+        <input type='submit' value='Submit' class="btn btn-primary">
+    </form>
+{% endblock %}
