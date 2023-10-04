@@ -33,7 +33,3 @@ else it will handle it appropiatley for which port in choice was given
 
 Data table
 ![image](https://user-images.githubusercontent.com/53827194/139951774-344d243a-6874-48ea-8fdd-615f9821ccff.png)
-
-cms_im_audit_report <- View Function
-
-I did not write this. The previous developer on this project wrote this to download the report. I used it becuase it did what I needed it to do. After reviewing the code left by the developer I releaize that it could be written much simpiler. 
